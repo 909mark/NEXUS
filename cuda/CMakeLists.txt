@@ -1,9 +1,9 @@
 cmake_minimum_required(VERSION 3.20)
 
 # Must use CUDA 11
-if (UNIX)
-  set(CMAKE_CUDA_COMPILER "/usr/local/cuda-11/bin/nvcc")
-endif()
+#if (UNIX)
+#  set(CMAKE_CUDA_COMPILER "/usr/local/cuda-11/bin/nvcc")
+#endif()
 
 project(NEXUS-CUDA LANGUAGES CXX CUDA)
 
